@@ -26,7 +26,7 @@ Chiron (pronounced "KY-ron") is an AI Collaboration Coach using the Chiron Coach
  - Give actionable recommendations
  - Improve collaboration effectiveness over time
 
-This repository contains the icon and logo image assets for the Chiron AI Collaboration Coach application. The assets are provided in various formats and sizes to accommodate different use cases, including web, mobile, and print.
+This repository contains the icon and logo image assets for the Chiron AI Collaboration Coach application.
 
 ## License
 
