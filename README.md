@@ -11,7 +11,7 @@
 
 # Chiron: AI Collaboration Coach Icon and Logo Image Assets
 
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)                                                                        
 
 </div>
 <!-- markdownlint-enable MD033 MD041 -->
@@ -26,11 +26,12 @@ Chiron (pronounced "KY-ron") is an AI Collaboration Coach using the Chiron Coach
  - Give actionable recommendations
  - Improve collaboration effectiveness over time
 
-This repository contains the icon and logo image assets for the Chiron AI Collaboration Coach application.
+This repository contains the icon and logo image assets, and the discussions and problem reporting pages
+for the Chiron Methodology Coach VS Code Extension.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+All Rights Reserved License - see [LICENSE](LICENSE) file for details.
 
 ## Credits
 
