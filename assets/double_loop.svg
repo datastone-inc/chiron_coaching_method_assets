@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#88C0D0"/>
+    </marker>
+    <marker id="arrow-coral" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#FF6B4F"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="620" height="300" fill="#1D2528" rx="12"/>
+
+  <!-- Three boxes in a row -->
+  <!-- Assumptions -->
+  <rect x="40" y="100" width="150" height="56" rx="8" fill="#2A3438" stroke="#B48EAD" stroke-width="1.5"/>
+  <text x="115" y="133" text-anchor="middle" font-size="14" font-weight="600" fill="#B48EAD">Assumptions</text>
+
+  <!-- Action -->
+  <rect x="240" y="100" width="130" height="56" rx="8" fill="#2A3438" stroke="#EBCB8B" stroke-width="1.5"/>
+  <text x="305" y="133" text-anchor="middle" font-size="14" font-weight="600" fill="#EBCB8B">Action</text>
+
+  <!-- Outcome -->
+  <rect x="430" y="100" width="140" height="56" rx="8" fill="#2A3438" stroke="#88C0D0" stroke-width="1.5"/>
+  <text x="500" y="133" text-anchor="middle" font-size="14" font-weight="600" fill="#88C0D0">Outcome</text>
+
+  <!-- Forward arrows -->
+  <line x1="190" y1="128" x2="235" y2="128" stroke="#88C0D0" stroke-width="1.5" marker-end="url(#arrow)"/>
+  <line x1="370" y1="128" x2="425" y2="128" stroke="#88C0D0" stroke-width="1.5" marker-end="url(#arrow)"/>
+
+  <!-- Single Loop: arc from Outcome top back to Action top -->
+  <path d="M 470 100 C 470 60, 340 60, 335 96" fill="none" stroke="#EBCB8B" stroke-width="1.5" stroke-dasharray="6,3" marker-end="url(#arrow)"/>
+  <text x="400" y="52" text-anchor="middle" font-size="11" font-weight="500" fill="#EBCB8B">Single Loop</text>
+  <text x="400" y="67" text-anchor="middle" font-size="10" fill="#A3BE8C" opacity="0.7">adjust action</text>
+
+  <!-- Double Loop: arc from Outcome bottom back to Assumptions bottom -->
+  <path d="M 470 156 C 470 230, 145 230, 145 160" fill="none" stroke="#FF6B4F" stroke-width="2" marker-end="url(#arrow-coral)"/>
+  <text x="310" y="222" text-anchor="middle" font-size="12" font-weight="600" fill="#FF6B4F">Double Loop (Chiron)</text>
+  <text x="310" y="238" text-anchor="middle" font-size="10" fill="#A3BE8C" opacity="0.7">question assumptions</text>
+</svg>

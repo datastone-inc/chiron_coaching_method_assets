@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 600 500" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="arr-blue" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#88C0D0"/>
+    </marker>
+    <marker id="arr-coral" viewBox="0 0 10 7" refX="10" refY="3.5" markerWidth="10" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 3.5 L 0 7 z" fill="#FF6B4F"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="600" height="500" fill="#1D2528" rx="12"/>
+
+  <!-- ==================== INNER LOOP (clockwise) ==================== -->
+  <!-- Dev/AI central node -->
+  <circle cx="300" cy="140" r="42" fill="#2A3438" stroke="#FF6B4F" stroke-width="2"/>
+  <text x="300" y="136" text-anchor="middle" font-size="14" font-weight="700" fill="#FF6B4F">Dev</text>
+  <text x="300" y="152" text-anchor="middle" font-size="11" fill="#A3BE8C">+ AI</text>
+
+  <!-- Inner ring: 4 phase nodes -->
+  <!-- Plan (top) -->
+  <rect x="260" y="28" width="80" height="32" rx="6" fill="#2A3438" stroke="#EBCB8B" stroke-width="1.2"/>
+  <text x="300" y="49" text-anchor="middle" font-size="12" font-weight="500" fill="#EBCB8B">Plan</text>
+
+  <!-- Code (right) -->
+  <rect x="388" y="124" width="80" height="32" rx="6" fill="#2A3438" stroke="#EBCB8B" stroke-width="1.2"/>
+  <text x="428" y="145" text-anchor="middle" font-size="12" font-weight="500" fill="#EBCB8B">Code</text>
+
+  <!-- Debug (bottom) -->
+  <rect x="260" y="220" width="80" height="32" rx="6" fill="#2A3438" stroke="#EBCB8B" stroke-width="1.2"/>
+  <text x="300" y="241" text-anchor="middle" font-size="12" font-weight="500" fill="#EBCB8B">Debug</text>
+
+  <!-- Review (left) -->
+  <rect x="132" y="124" width="80" height="32" rx="6" fill="#2A3438" stroke="#EBCB8B" stroke-width="1.2"/>
+  <text x="172" y="145" text-anchor="middle" font-size="12" font-weight="500" fill="#EBCB8B">Review</text>
+
+  <!-- Inner clockwise arrows -->
+  <!-- Plan -> Code -->
+  <path d="M 340 48 C 370 55, 395 90, 393 120" fill="none" stroke="#EBCB8B" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+  <!-- Code -> Debug -->
+  <path d="M 418 156 C 400 185, 370 215, 344 228" fill="none" stroke="#EBCB8B" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+  <!-- Debug -> Review -->
+  <path d="M 260 240 C 230 245, 200 200, 198 160" fill="none" stroke="#EBCB8B" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+  <!-- Review -> Plan -->
+  <path d="M 180 124 C 195 90, 230 60, 256 50" fill="none" stroke="#EBCB8B" stroke-width="1.2" marker-end="url(#arr-blue)"/>
+
+  <!-- Inner loop label -->
+  <text x="510" y="60" font-size="11" fill="#EBCB8B" opacity="0.7" font-style="italic">Inner loop:</text>
+  <text x="510" y="76" font-size="11" fill="#EBCB8B" opacity="0.7" font-style="italic">dev cycle</text>
+  <!-- Clockwise arrow symbol -->
+  <text x="510" y="96" font-size="18" fill="#EBCB8B" opacity="0.5">&#x27F3;</text>
+
+  <!-- ==================== OUTER LOOP (counter-clockwise) ==================== -->
+
+  <!-- Chiron AI node (bottom-left) -->
+  <rect x="50" y="360" width="170" height="70" rx="8" fill="#2A3438" stroke="#FF6B4F" stroke-width="1.5"/>
+  <!-- Embedded Chiron icon -->
+  <image x="58" y="367" width="42" height="42" href="data:image/jpeg;base64,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" opacity="0.9"/>
+  <text x="160" y="386" text-anchor="middle" font-size="13" font-weight="600" fill="#FF6B4F">Chiron AI</text>
+  <text x="160" y="402" text-anchor="middle" font-size="11" fill="#A3BE8C">+ Dev</text>
+  <text x="150" y="420" text-anchor="middle" font-size="11" fill="#A3BE8C" opacity="0.7">analyzes patterns</text>
+
+  <!-- Coaching Insights node (bottom-right) -->
+  <rect x="370" y="360" width="180" height="70" rx="8" fill="#2A3438" stroke="#B48EAD" stroke-width="1.5"/>
+  <text x="460" y="392" text-anchor="middle" font-size="13" font-weight="600" fill="#B48EAD">Coaching Insights</text>
+  <text x="460" y="412" text-anchor="middle" font-size="11" fill="#A3BE8C">personalized feedback</text>
+
+  <!-- Outer counter-clockwise arrows -->
+  <!-- Dev/AI -> Chiron AI (down-left) -->
+  <path d="M 262 160 C 180 210, 100 280, 100 355" fill="none" stroke="#FF6B4F" stroke-width="2" marker-end="url(#arr-coral)"/>
+  <text x="135" y="270" text-anchor="middle" font-size="10" fill="#FF6B4F" opacity="0.8">conversation</text>
+  <text x="135" y="283" text-anchor="middle" font-size="10" fill="#FF6B4F" opacity="0.8">history</text>
+
+  <!-- Chiron AI -> Coaching Insights (right) -->
+  <line x1="220" y1="395" x2="365" y2="395" stroke="#FF6B4F" stroke-width="2" marker-end="url(#arr-coral)"/>
+
+  <!-- Coaching Insights -> Dev/AI (up-right back to top) -->
+  <path d="M 500 360 C 530 280, 430 210, 340 165" fill="none" stroke="#FF6B4F" stroke-width="2" marker-end="url(#arr-coral)"/>
+  <text x="480" y="270" text-anchor="middle" font-size="10" fill="#FF6B4F" opacity="0.8">improved</text>
+  <text x="480" y="283" text-anchor="middle" font-size="10" fill="#FF6B4F" opacity="0.8">techniques</text>
+
+  <!-- Outer loop label -->
+  <text x="510" y="448" font-size="11" fill="#FF6B4F" opacity="0.7" font-style="italic">Outer loop:</text>
+  <text x="510" y="464" font-size="11" fill="#FF6B4F" opacity="0.7" font-style="italic">coaching cycle</text>
+  <!-- Counter-clockwise arrow symbol -->
+  <text x="510" y="484" font-size="18" fill="#FF6B4F" opacity="0.5">&#x27F2;</text>
+</svg>

@@ -11,7 +11,7 @@
 
 # Chiron: AI Collaboration Coach Icon and Logo Image Assets
 
-[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)                                                                        
+[![License](https://img.shields.io/badge/License-All%20Rights%20Reserved-red.svg)](LICENSE)
 
 </div>
 <!-- markdownlint-enable MD033 MD041 -->
